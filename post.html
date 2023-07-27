@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" action="validation.html" method="GET">
+        <label for="name">name:</label>
+        <input type="text" id="name" name="name">
+        <span class="error-message" id="name-error"></span><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phoneNumber">phone number:</label>
+        <input type="number" id="phoneNumber" onkeypress="Number" maxlength="10" name="number"><br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address"></textarea><br>
+        <label for="upload-file">upload-file:</label>
+        <input type="file" id="upload-file" name="file">
+        <p>favourite food</p>
+        <input type="radio" id="icecream" name="fav_food" value="icecream">
+        <label for="icecream">icecream</label>
+        <input type="radio" id="cake" name="fav_food" value="cake">
+        <label for="cake">Cake</label>
+        <input type="radio" id="lays" name="fav_food" value="food">
+        <label for="lays">Lays</label>
+        <p>chocolates</p>
+        <input type="checkbox" id="5star" name="5star" value="5star">
+        <label for="5star"> 5 STAR</label ><br>
+        <input type="checkbox" id="munch" name="munch" value="munch">
+        <label for="munch"> MUNCH</label><br>
+        <label for="flavor">iceccream-flavor:</label>
+        <select name="flavour" id="flavor">
+            <option value="vennila">Vennila</option>
+            <option value="butterscoth">butterscoth</option>
+            <option value="strawberry">strawberry</option>
+
+        </select><br>
+
+        <button type="submit" value="submit" id="submit">submit</button>
+    </form>
+
+
+</main>
+
+</body>
+</html>

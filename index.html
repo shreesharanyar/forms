@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="input.css">
+    <title>forms</title>
+</head>
+
+<body>
+    <main>
+        <form name="myform" action="validation.html" onsubmit="validateForm(event)" method="POST">
+            <label for="name"><h3>name:</h3></label>
+            <input type="text" id="name" name="name" >
+            <br>
+            <label for="email"><h3>email:</h3></label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phoneNumber" ><h3>phone number:</h3></label>
+            <input type="number" id="phoneNumber" onkeypress="Number" maxlength="10" name="number"><br>
+            <label for="password"><h3>password:</h3></label>
+            <input type="password" id="password" name="password"><br>
+
+            <label for="address"><h3>Address:</h3></label>
+            <textarea id="address"></textarea><br>
+            <label for="upload-file"><h4>upload-file:</h4></label>
+            <input type="file" id="upload-file" name="file">
+            <h3>favourite food</h3>
+           
+            <label for="icecream"><input type="radio" id="icecream" name="fav_food" value="icecream">icecream</label>
+            <label for="cake"><input type="radio" id="cake" name="fav_food" value="cake">Cake</label>
+            <label for="lays"><input type="radio" id="lays" name="fav_food" value="food">Lays</label>
+            <h3>chocolates</h3>
+           
+            <label for="5star"><input type="checkbox" id="5star" name="5star" value="5star">
+            5 STAR</label>
+            <label for="munch"><input type="checkbox" id="munch" name="munch" value="munch">
+            MUNCH</label><br>
+            <label for="flavor"><h3>iceccream-flavor:</h3></label>
+            <select name="flavour" id="flavor">
+                <option value="vennila">Vennila</option>
+                <option value="butterscoth">butterscoth</option>
+                <option value="strawberry">strawberry</option>
+
+            </select><br>
+           
+            <button type="submit" value="submit" id="submit">submit</button>
+        </form>
+        <script src="app.js"></script>
+    </main>
+    
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    background-color: plum;
+  }
+  .box {
+    
+    display: flex;
+  justify-content:center;
+  align-items:center;
+  border:2px solid black;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  }
+  h2 {
+    color: aliceblue;
+    text-align: center;
+  }
+  h1 {
+    color: beige;
+    text-align: center;
+  }
+  li a {
+    text-decoration: none;
+    color: brown;
+  }
